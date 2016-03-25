@@ -16,12 +16,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 100%; }
 
 h1 { margin-bottom: 1em; }
+
+img {
+  max-width: 100%;
+}
+
 h3,
 li,
 p { margin: 1.5em 0; }
 
 a {
-	color: #f68a28;
+	color: #40bfb5;
 	text-decoration: none;
 }
 a:hover {
