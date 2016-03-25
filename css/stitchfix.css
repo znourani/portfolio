@@ -31,15 +31,11 @@ a:hover {
 
 header {
 	border-bottom: 1px solid #fff;
-	color: #fff;
-	background: #f36c01; /* Old browsers */
-	background: -moz-linear-gradient(top, #f68a28 0%, #f36c01 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f68a28), color-stop(100%,#f36c01)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #f68a28 0%,#f36c01 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #f68a28 0%,#f36c01 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #f68a28 0%,#f36c01 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #f68a28 0%,#f36c01 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f68a28', endColorstr='#f36c01',GradientType=0 ); /* IE6-9 */
+	background: #40bfb5; /* Old browsers */
+	background: -moz-linear-gradient(top, #40bfb5 0%, #1f7a73 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #40bfb5 0%,#1f7a73 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #40bfb5 0%,#1f7a73 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40bfb5', endColorstr='#1f7a73',GradientType=0 ); /* IE6-9 */
 	padding: 5em 3em;
 	text-align: center;
 }
