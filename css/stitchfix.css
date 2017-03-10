@@ -99,3 +99,11 @@ header p {
 	width: 6em;
 	margin: -3em auto 1.5em;
 }
+
+.disclaimer {
+	background-color: #ddd;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    font-style: italic;
+}
