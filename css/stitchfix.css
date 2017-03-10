@@ -34,7 +34,7 @@ a:hover {
 }
 
 table {
-	font-size: 16px;
+	font-size: 0.9em;
   	border: 1px solid #ababab;
 	border-bottom: 0;
 	border-right: 0;
@@ -76,10 +76,10 @@ header p {
 
 .content {
 	width: 95%;
-	max-width: 32em;
+	max-width: 42em;
 	margin: 0 auto;
 	padding-bottom: 3em;
-	font-size: 1.2em;
+	font-size: 1em;
 	line-height: 1.4em;
 }
 
