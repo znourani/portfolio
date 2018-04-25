@@ -1,0 +1,146 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body { height: 100%; }
+
+html {
+  padding: 30px;
+}
+
+body {
+  background-color: #ebebeb;
+  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%; }
+
+h1 { margin-bottom: 1em; }
+
+img {
+  max-width: 100%;
+}
+
+h3,
+li,
+p { margin: 1.5em 0; }
+
+a {
+	color: #40bfb5;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+ol,
+ul {
+  padding-left: 1em;
+}
+
+table {
+  width: 100%;
+	font-size: 12px;
+	border: 1px solid #ababab;
+	border-bottom: 0;
+	border-right: 0;
+	border-collapse: collapse;
+}
+
+thead {
+	background-color: #eee;
+}
+
+td {
+  	padding: 0.5em 0.75em;
+	border-bottom: 1px solid #ababab;
+    border-right: 1px solid #ababab;
+}
+
+td.heading {
+  font-weight: 700;
+  text-align: right;
+}
+
+header {
+	border-bottom: 1px solid #fff;
+	background: #48cfc9 url('/assets/images/stitchfix/header-bg.png') center center no-repeat;
+  background-size: cover;
+	padding: 2em 3em;
+	text-align: center;
+}
+
+header h1 {
+	margin: 0;
+	font-family: 'Times New Roman', serif;
+	font-size: 3em;
+	color: #fff;
+}
+
+header p {
+  margin: 1em 0 0;
+  padding-top: 0.75em;
+  border-top: 1px solid #fff;
+	font-size: 1.5em;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 600px;
+  margin: 0 auto 30px;
+  background-color: #fff;
+}
+
+.content {
+	width: 95%;
+	max-width: 42em;
+	margin: 0 auto;
+	padding-bottom: 3em;
+	font-size: 1em;
+	line-height: 1.4em;
+}
+
+.box-section {
+  padding: 2em;
+  margin-top: 2em;
+  background-color: #c3e5e4;
+}
+
+.box-section--bad {
+  background-color: #e5c3cb;
+}
+
+ .box-section__icon {
+   position: relative;
+   top: -10px;
+   left: -15px
+ }
+
+.scrollable {
+	height: 8em;
+	padding: 1em 2em 2em;
+	overflow-y: scroll;
+	border: 1px solid #999;
+	box-shadow: inset 0 0.2em 0.5em rgba(0,0,0,.25);
+	background-color: rgba(0,0,0,.05);
+	color: #4d4d4d;
+	font-size: 0.9em;
+}
+
+.face {
+	display: block;
+	width: 6em;
+	margin: -3em auto 1.5em;
+}
+
+.disclaimer {
+	background-color: #ddd;
+    padding: 1em;
+    margin-bottom: 2em;
+    font-size: 0.9em;
+    font-style: italic;
+}
