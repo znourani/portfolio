@@ -42,6 +42,10 @@ ul {
   padding-left: 1em;
 }
 
+ol li {
+  margin: 0.5em 0;
+}
+
 table {
   width: 100%;
 	font-size: 12px;
